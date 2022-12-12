@@ -1,0 +1,104 @@
+html{
+    background-color: #22262e;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: linear-gradient( #16101c,#22192b, #22262e );
+}
+header a{
+    color: #16101c;
+    font-size: medium;
+}
+header{
+    background-color: #16101c69;
+}
+.navbar {
+    background-color: whitesmoke;
+}
+.nav-item{
+    list-style-type: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+}
+h1 {
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+}
+h2{
+    padding-bottom: 0.75rem;
+}
+p {
+    text-align: justify;
+    font-size: medium;
+}
+section > article{
+    background-color: whitesmoke;
+    border-radius: 3%;
+    border-style: solid;
+}
+table{
+    text-align: left;
+}
+[id= "repertuar"] * h2{
+    font-size: larger;
+    font-weight: 700;
+}
+[id="formularz"]{
+    padding-left: 7.5% ;
+    padding-right: 7.5%;
+    font-size: larger;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+[id="formularz"] * div{
+    text-align: left;
+}
+[id="sala-content"]{
+    text-align: center;
+    padding-left:3%;
+    padding-right:3%;
+    padding-bottom: 2%;
+    padding-top:1%;
+}
+[id="sala-content"] > div{
+    justify-content: center;
+}
+footer{
+    margin-top: 2rem;
+    color: whitesmoke;
+    position: relative;
+    background-color: transparent;
+}
+
+.seat {
+    background-color: #22192b;
+    height: 26px;
+    width: 32px;
+    margin: 3px;
+    font-size: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  
+  
+  
+
+.seat.sold {
+    height: 26px;
+    width: 32px;
+    margin: 3px;
+    font-size: 50px;
+    background-color: rgb(180, 175, 175);
+  }
+
+.seat:not(.sold):hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.seat:nth-of-type(2) {
+    margin-right: 18px;
+  }
